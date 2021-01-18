@@ -187,9 +187,9 @@ The following transformations were applied to the source data:
 3. The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names (see Identifiers section).
 
 4. The variable names were replaced with descriptive variable names (e.g. `tBodyAcc-mean()-X` was modified to `timeBodyAccMeanX`), using the following set of rules:
-  * Special characters (i.e. `()`, and `-`) were removed
-  * `mean` and `std` were replaced with `Mean` and `Std` respectively
-  * `t` and `f` were replaced with `time` and `frequency`
+   * Special characters (i.e. `()`, and `-`) were removed
+   * `mean` and `std` were replaced with `Mean` and `Std` respectively
+   * `t` and `f` were replaced with `time` and `frequency`
   
 5. From the data set in step 4, the final data set was created with the average of each variable for each activity and each subject.
 
