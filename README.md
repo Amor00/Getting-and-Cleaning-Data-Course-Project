@@ -1,25 +1,23 @@
 # Getting-and-Cleaning-Data-Course-Project
 The Assignment of Getting and Cleaning Data Course Project in Coursera
 
-        The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
-        A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
-        And the original data was obtained:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: [Human Activity Recognition Using Samsung GalaxyS Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). And the original data was obtained:[UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 ## Files
 
-    README.md -- this file
-    CodeBook.md -- codebook describing variables, the data and transformations
-    run_analysis.R -- R code
-    MeanData.txt -- the resutl data
+* README.md -- this file
+* CodeBook.md -- codebook describing variables, the data and transformations
+* run_analysis.R -- R code
+* MeanData.txt -- the resutl data
 
 ## Environment
 
-It should run in a folder of the Samsung data (the zip had this folder: UCI HAR Dataset). The script assumes it has in it's working directory the following files and folders:
+It should run in a folder of the Samsung data. The script assumes it has in it's working directory the following files and folders:
 
-    activity_labels.txt
-    features.txt
-    test/
-    train/
+* activity_labels.txt
+* features.txt
+* test/
+* train/
 
 ## Script run_analysis.R
 The R script, run_analysis.R, does the following:
